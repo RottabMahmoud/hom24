@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 160px auto auto;
+  grid-template-areas:
+    "header header header"
+    "sidebar content content"
+    "footer footer footer";
+  margin: 6px;
+}
+
+.page > * {
+  padding: 10px;
+}
+
+.header {
+  grid-area: header;
+  background-color: lightblue;
+}
+
+.header input {
+  float: right;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: lavender;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 0 0 0 8px;
+  padding: 8px 0;
+}
+
+.content {
+  grid-area: content;
+  grid-column: span 2;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: lightblue;
+  text-align: center;
+}
+.pagination {
+  text-align: center;
+}
+.pagination-button {
+  background-color: lightblue;
+}
