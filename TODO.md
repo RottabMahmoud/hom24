@@ -1,6 +1,3 @@
-1- Enable the Search Input FIELD. done
-2- ENABLE pagination. done
-3- Fixed some Warnings. done
-4- Enable Add to cart, and add a cart to the UI. -- Not yet done.
-5- Enable the Cateogry bar on the left side. --X--
-6- Add CSS media classes to make a Responsive UI.
+1- Make a Responsive UI, to handle multiple breakpoints.
+2- Enable Add to Cart Functionality + view cart + manage cart + proceed to checkout, so you have a real shopping experience.
+3- Enable the Cateogry bar on the left side to filter by category, to make a cool shopping experience. 
